@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3rem;
+    height: 15vh;
     background-color: bisque;
 }
 
@@ -41,4 +41,10 @@ main {
 
 button {
     padding:  10px;
+}
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 10px;
+    }
 }
