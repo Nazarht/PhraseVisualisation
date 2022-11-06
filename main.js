@@ -32,7 +32,7 @@ function firstSection() {
     }
 }
 // Array that hold secound section words 
-const ssArr = ['will create', 'will make','is going to make','is going to produce','will spawn','is going to summon','will generate','is going to manufacture','will build from a scratch','might form','may cause the appearanc of']
+const ssArr = ['will create', 'will make','is going to make','is going to produce','will spawn','is going to summon','will generate','is going to manufacture','will build from a scratch','might form','may cause the appereance of']
 // Functions that will work with secound section
 function secoundSection() {
     const randomNumber = Math.floor(Math.random() * ssArr.length);
